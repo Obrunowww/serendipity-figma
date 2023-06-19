@@ -12,8 +12,9 @@
 }
 
 body {
+    background-color: #070129;
     background-image: url(../imagens/background.png);
-    background-size: 100%;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
 
 
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
     height: 15vh;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 28.32%, rgba(0, 0, 0, 0) 95.98%);
     backdrop-filter: blur(20px);
@@ -225,8 +227,9 @@ main {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.062) , rgba(0, 0, 0, 0.226),rgba(128, 0, 128, 0.377));
 }
 footer{
-    /* background: linear-gradient(180deg, rgba(96, 3, 245, 0.877) 0%, rgba(29, 7, 228, 0.795) 70.65%); */
     background-color: #070129;
+    /* background: linear-gradient(180deg, rgba(96, 3, 245, 0.877) 0%, rgba(29, 7, 228, 0.795) 70.65%); */
+    background:linear-gradient(180deg, #070129ab 0%,#070129 10%, #070129);
     height: 450px;
     font-family: "Inter", sans-serif;
 }
@@ -238,7 +241,7 @@ footer{
 }
 
 footer ul{
-margin-top: 40px;
+
 padding-top: 60px;
 
 
